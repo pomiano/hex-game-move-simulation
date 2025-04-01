@@ -1,12 +1,19 @@
-# Game - Move Simulation
+# Game - Move Simulation (Hexagonal Board)
 
 ## Description
 
-This project simulates a game where possible moves for two players on the board are analyzed. The program calculates the game states and determines if either player can win in one or two moves against a naive or perfect opponent. For each board, the program evaluates the following aspects:
+This project simulates a game where possible moves for two players on a hexagonal board are analyzed. The program calculates the game states and determines if either player can win in one or two moves against a naive or perfect opponent. For each board, the program evaluates the following aspects:
 
 - The correctness of the board.
 - Whether the game is over.
 - If a player can win in one or two moves depending on the opponent's level.
+
+The game is played on a **hexagonal board**, where the positions and moves are calculated based on the unique structure of hexagonal tiles. The game involves analyzing multiple scenarios to predict possible outcomes for both players, allowing for strategic play against different types of opponents.
+
+### Features:
+- **Hexagonal Grid**: The board is represented as a hexagonal grid, which changes the way moves are evaluated compared to square grids.
+- **Board Validation**: The program checks whether the board setup is valid and if the game is over.
+- **Move Simulation**: The program simulates moves for both players and determines possible outcomes against both naive and perfect opponents.
 
 
 ## Input Format
