@@ -34,11 +34,12 @@ The input consists of the following elements:
 ### Example 1
 
 #### Input
-Input
 
+<pre>
  ---
 <   >
  ---
+
 BOARD_SIZE
 
 PAWNS_NUMBER
@@ -58,6 +59,7 @@ CAN_RED_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_RED_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
+</pre>
 
 #### Output 
 1
@@ -82,11 +84,13 @@ NO
 
 ### Example 1
 #### Input
----
+<pre>
+    ---
  --<   >--
 <   >-<   >
  --<   >--
     ---
+
 BOARD_SIZE
 
 PAWNS_NUMBER
@@ -106,6 +110,7 @@ CAN_RED_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_RED_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
+</pre>
 #### Output
 2
 
@@ -129,7 +134,8 @@ NO
 
 ### Example 3
 #### Input 
----
+<pre>
+          ---
        --< b >--
     --< r >-< b >--
  --< r >-< r >-< b >--
@@ -138,6 +144,7 @@ NO
     --< r >-< r >--
        --< r >--
           ---
+
 BOARD_SIZE
 
 PAWNS_NUMBER
@@ -157,6 +164,7 @@ CAN_RED_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_RED_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
+</pre>
 #### Output
 
 4
@@ -179,9 +187,10 @@ NO
 NO
 NO
 
-### Example 3
+### Example 4
 #### Input 
----
+<pre>
+                               ---
                             --<   >--
                          --<   >-<   >--
                       --<   >-<   >-<   >--
@@ -204,6 +213,7 @@ NO
                          --<   >-<   >--
                             --<   >--
                                ---
+
 BOARD_SIZE
 
 PAWNS_NUMBER
@@ -223,6 +233,7 @@ CAN_RED_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
 CAN_RED_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
 CAN_BLUE_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
+</pre>
 
 #### Output
 11
